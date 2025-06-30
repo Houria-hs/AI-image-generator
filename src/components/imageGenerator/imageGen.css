@@ -1,1 +1,54 @@
-
+.ai_image_generator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    font-size: 2rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+.header span{
+    color: palevioletred;
+    font-weight: 600;
+}
+.image-loading{
+    display: flex;
+    flex-direction: column;
+}
+.image-loading img{
+    width: 25rem;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    height: 95px;
+    background-color: #1F3540;
+    border-radius: 50px;
+}
+.search-input {
+    width: 600px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: white;
+    padding: 1rem 2rem;
+    color: #999;
+}
+.Generate-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 85px;
+    font-size: 1rem;
+    border-radius: 50px;
+    background-color: #DE1B89;
+    color: white;
+    cursor: pointer;
+}
